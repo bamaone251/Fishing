@@ -17,7 +17,7 @@
 
     <style>
         body {
-            background-color: #0b1111;
+            background-color: #494343;
             margin: 0;
             padding: 1px;
             font-family: Arial, sans-serif;
@@ -29,18 +29,18 @@
         .navbar {
             display: flex;
             justify-content: space-around;
-            background-color: #0a4646;
-            padding: 10px;
+            background-color: #610909;
+            padding: 3px;
             margin-bottom: 5px;
         }
 
         .navbar .button {
-            background-color: #27a0a0;
+            background-color: #302727;
             color: #fff;
             border: none;
             padding: 8px 12px;
             text-decoration: none;
-            font-size: 10px;
+            font-size: 11px;
             border-radius: 5px;
             cursor: pointer;
             text-align: center;
@@ -160,6 +160,16 @@
       text-align: center;
     }
 
+
+    h1 {
+            justify-self: center;
+            padding: 1px;
+            margin-top: 1px;
+            margin-bottom: 1px;
+            color: #bda0a0;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-style: oblique;
+        }
     .weather-card h1 {
       margin: 0;
       font-size: 14px;
@@ -178,10 +188,13 @@
 </head>
 <body>
   
-    
+    <!-- Navbar -->
+  
+      
+      
 
     
-    <div class="container">
+ 
         
 
 
@@ -191,7 +204,7 @@
         <!-- Weather Forecast Images -->
         <div class="forecast-images">
       
-
+<H1>NORTHERN ROCKIES</H1>
             <img src="https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/nr/02/GOES16-NR-02-600x600.gif">
             <img src="https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/nr/07/GOES16-NR-07-600x600.gif">
             <img src="https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/nr/08/GOES16-NR-08-600x600.gif">
@@ -203,6 +216,7 @@
             <img src="https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/nr/GEOCOLOR/GOES16-NR-GEOCOLOR-600x600.gif">
             <img src="https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/nr/Sandwich/GOES16-NR-Sandwich-600x600.gif">
 
+            <H1>SOUTHERN ROCKIES</H1>
             <img src="https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/sr/02/GOES16-SR-02-600x600.gif">
             <img src="https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/sr/07/GOES16-SR-07-600x600.gif">
             <img src="https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/sr/08/GOES16-SR-08-600x600.gif">
@@ -213,6 +227,7 @@
             <img src="https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/sr/FireTemperature/GOES16-SR-FireTemperature-600x600.gif">
             <img src="https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/sr/GEOCOLOR/GOES16-SR-GEOCOLOR-600x600.gif">
             <img src="https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/sr/Sandwich/GOES16-SR-Sandwich-600x600.gif">
+            
         <script>
             document.addEventListener("DOMContentLoaded", function () {
                 const forecastImages = document.querySelectorAll(".forecast-images img");

@@ -169,6 +169,11 @@
   color: #333333;
 }
 
+
+.map2 {
+    width: 100%;
+    height: 100%;
+}
 .weather-card p {
   margin: 10px 0;
   font-size: 14px;
@@ -180,22 +185,22 @@
 </head>
 <body>
   
-
-
+    <!-- Navbar -->
+    
   
-
+        <div class="map2"> 
             <script type="text/javascript">
                 // Map appearance
                 var width="100%";         // width in pixels or percentage
-                var height="360";         // height in pixels
+                var height="150px";         // height in pixels
                 var latitude="30.24518";     // center latitude (decimal degrees)
                 var longitude="-88.5257";    // center longitude (decimal degrees)
-                var zoom="10";             // initial zoom (between 3 and 18)
+                var zoom="9";             // initial zoom (between 3 and 18)
             </script>
      
             <script  type="text/javascript" src="https://www.vesselfinder.com/aismap.js"></script>
-
-            <iframe width="100%" height="460"  src="https://globe.adsbexchange.com/" frameborder="0"></iframe>
+        </div>
+            <iframe width="100%" height="400px"  src="https://globe.adsbexchange.com/" frameborder="0"></iframe>
      
         
 </body>
